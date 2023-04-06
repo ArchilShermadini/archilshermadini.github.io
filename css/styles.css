@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    background-color: #181823;
+    color: #C0EEF2;
+    font-family: 'Dancing Script', cursive;;
+}
+
+.wotlklogo{
+    display: block;
+    margin: 0 auto;
+    height: 10%;
+    width: 20%;
+    padding-bottom: 70px;
+}
+.arthas-purge{
+    border-radius: 15%;
+    height: 30%;
+    width: 60%;
+}
+
+.img-text{
+    font-size: xx-large;
+    position: absolute;
+    margin-left: 3%;
+}
+.subtext{
+    font-size: medium;
+
+}
+.top-container{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
