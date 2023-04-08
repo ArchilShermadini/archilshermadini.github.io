@@ -19,17 +19,18 @@ body{
 }
 
 .img-text{
-    font-size: xx-large;
+    font-size: 250%;
     position: absolute;
     margin-left: 3%;
 }
 .subtext{
-    font-size: medium;
-
+    font-size: 60%;
 }
 .top-container{
-    display: block;
-    margin: 0 auto;
     padding-left: 15%;
     padding-right: 15%;
+    margin-bottom: 50px;
+}
+.bodytext{
+    text-align: center;
 }
