@@ -18,8 +18,8 @@ img{
     height: 70%;
 }
 hr{
-    border: 10px dotted;
-    width: 10%;
+    border: 10px #202030 dotted;
+    width: 7%;
     height: 0;
     border-bottom: none;
     margin-top: 40px;
@@ -27,6 +27,9 @@ hr{
 }
 header{
     background-color: #1e1e2c
+}
+a:hover{
+    color: #C0EEF2;
 }
 .wotlklogo{
     margin: 0 auto;
@@ -98,10 +101,15 @@ header{
     margin-top: 30px;
     margin-bottom: 0px;
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-size: 1.5rem;
 }
 .footer-link{
     margin: 20px; 
     color: #11999E;
+    text-decoration: none;
+}
+.copyright{
+    padding-top: 10px;
+    font-size: 1rem;
 }
