@@ -3,34 +3,105 @@ body{
     background-color: #181823;
     color: #C0EEF2;
     font-family: 'Dancing Script', cursive;;
+    text-align: center;
 }
-
+h1{
+    height: 2;
+    font-size: 2rem;
+}
+h2{
+    font-weight: normal;
+    font-size: 2rem;
+}
+img{
+    width: 70%;
+    height: 70%;
+}
+hr{
+    border: 10px dotted;
+    width: 10%;
+    height: 0;
+    border-bottom: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+header{
+    background-color: #1e1e2c
+}
 .wotlklogo{
-    display: block;
     margin: 0 auto;
     height: 10%;
     width: 20%;
-    padding-bottom: 70px;
 }
-.arthas-purge{
-    border-radius: 15%;
-    height: 30%;
-    width: 60%;
-}
-
-.img-text{
-    font-size: 250%;
-    position: absolute;
-    margin-left: 3%;
-}
-.subtext{
-    font-size: 60%;
+.arthas-purge-img{
+    border-radius: 50px;
 }
 .top-container{
-    padding-left: 15%;
-    padding-right: 15%;
-    margin-bottom: 50px;
+    width: 50%;
+    margin: 50px auto 50px auto;
 }
-.bodytext{
-    text-align: center;
+.profile{
+    margin: 70px auto 70px auto;
+}
+.skills{
+    margin-top: 70px;
+}
+.skill-row{
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    padding-bottom: 100px;
+}
+
+.arthas-skill-img{
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin-right: 30px;
+}
+.contact-me{
+    margin-top: 10px;
+}
+.btn {
+  background: #001c2e;
+  background-image: -webkit-linear-gradient(top, #001c2e, #00446e);
+  background-image: -moz-linear-gradient(top, #001c2e, #00446e);
+  background-image: -ms-linear-gradient(top, #001c2e, #00446e);
+  background-image: -o-linear-gradient(top, #001c2e, #00446e);
+  background-image: linear-gradient(to bottom, #001c2e, #00446e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 1000px;
+}
+
+.btn:hover {
+  background: #00395c;
+  background-image: -webkit-linear-gradient(top, #00395c, #005187);
+  background-image: -moz-linear-gradient(top, #00395c, #005187);
+  background-image: -ms-linear-gradient(top, #00395c, #005187);
+  background-image: -o-linear-gradient(top, #00395c, #005187);
+  background-image: linear-gradient(to bottom, #00395c, #005187);
+  text-decoration: none;
+}
+.bottom-container{
+    background-color: #1e1e2c;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+.footer-link{
+    margin: 20px; 
+    color: #11999E;
 }
